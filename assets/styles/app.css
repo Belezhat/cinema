@@ -1,0 +1,40 @@
+* 
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+body
+{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+nav a, footer p
+{
+    font-family: 'Pacifico', cursive;
+}
+
+.shadow-top
+{
+    box-shadow: 0 -0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.border-radius
+{
+    border-radius: 20px;
+}
+
+.card 
+{
+    transition: 1s;
+}
+
+.card:hover
+{
+    transform: scale(1.05);
+}
